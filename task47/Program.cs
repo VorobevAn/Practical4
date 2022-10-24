@@ -24,7 +24,7 @@ double[,] GetArray(int m, int n)
     {
         for (int j = 0; j < n; j++)
         {
-            resylt[i, j] = new Random().NextDouble()*10; 
+            resylt[i, j] = Convert.ToDouble(new Random().Next(-100, 100))/10;
         }
     }
     return resylt;
