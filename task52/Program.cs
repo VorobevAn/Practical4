@@ -20,10 +20,10 @@ int[,] Array(string ans)
     int[,] arr = GetArray(4, 4);
     while(ans == "Y")
     {        
-        Console.WriteLine("Ввудите колличество строк: ");
+        Console.WriteLine("Введите колличество строк: ");
         int rows = int.Parse(Console.ReadLine()!);
 
-        Console.WriteLine("Ввудите колличество столбцов: ");
+        Console.WriteLine("Введите колличество столбцов: ");
         int columns = int.Parse(Console.ReadLine()!);
         arr =  GetArray(rows, columns);
         break;
